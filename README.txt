@@ -1,8 +1,6 @@
-COMO USAR
-1) Instale o Node.js (nodejs.org) se ainda nao tiver.
-2) Abra esta pasta no terminal e rode:  npm install
-3) Depois rode:  npm run dev   e abra  http://localhost:3000
-Para colocar no ar de verdade: npm run build  e depois  npm start
-A senha do painel (1234) fica no arquivo lib/db.js, na linha PASSWORD.
-O numero do WhatsApp fica no inicio do arquivo app/page.js.
-Tudo que o dono salva fica na pasta "data".
+COMO COLOCAR NA VERCEL (para o dono conseguir salvar o cardapio)
+1) Envie estes arquivos para o seu projeto (GitHub ou Vercel) e faca o deploy.
+2) No painel da Vercel: abra o projeto > aba "Storage" > "Create" > "Blob" > crie e clique em "Connect" no projeto.
+3) Va em "Deployments" > "Redeploy" para o site passar a usar o armazenamento.
+Pronto: o painel do dono (chapeu de cozinheiro) ja consegue salvar tudo.
+A senha (1234) fica em lib/db.js. O WhatsApp fica no comeco de app/page.js.
